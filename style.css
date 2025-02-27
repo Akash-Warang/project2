@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.main{
+    width: 20vw;
+    height: 60vh;
+    margin:auto;
+    border: 2px solid black;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    height: 5%;
+    margin: 2px;
+    border: 2px solid red;
+}
+.heading p {
+    margin: 0;
+}
+.calci{
+    height: 95%;
+    margin: 2px;
+    border: 2px solid red;
+}
+.screen{
+    height: 20%;
+    border: 2px solid green;
+    margin: 2px;
+}
+.btns-container{
+    height: 77%;
+    margin: 2px;
+    border: 2px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 4px;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 22%;
+    height: 12%;
+    border: 2px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
