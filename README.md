@@ -1,2 +1,2 @@
 # project2
-Simple Calculator 
+Calculator 
